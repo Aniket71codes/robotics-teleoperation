@@ -1,0 +1,13 @@
+.venv/
+__pycache__/
+*.pyc
+.pytest_cache/
+# local broker binaries extracted from .deb files (Linux helper)
+tools/mosquitto/root/
+# scratch logs
+results_full_run.log
+*.log
+# telemetry logs recorded with `log start`
+logs/
+# LibreOffice lock files
+.~lock.*
